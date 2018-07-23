@@ -1,0 +1,9 @@
+.btn-primary-spacing
+{
+  margin-right: 5px;
+  margin-bottom: 5px !important;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}

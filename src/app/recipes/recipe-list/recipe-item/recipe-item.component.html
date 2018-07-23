@@ -1,0 +1,12 @@
+<a style="cursor: pointer" class="list-group-item list-group-item-action
+      flex-column align-items-start wid clearfix"
+   [routerLink]="[index]"
+   routerLinkActive="active">
+  <div class="media">
+    <div class="media-body">
+      <h4 class="mt-0">{{recipe.name}}</h4>
+      {{recipe.description}}
+    </div>
+    <img [src]="recipe.imagePath" alt="{{recipe.description}}" class="img-fluid" style="max-height: 100px">
+  </div>
+</a>
